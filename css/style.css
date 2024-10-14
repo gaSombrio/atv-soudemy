@@ -120,18 +120,88 @@ main section.products p.prc {
     margin: 0 34vw;
     color: #888888;
 }
-main section.products ul {
+main section.products ul {  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 12vw;
+   
 }
 main section.products ul li {
-    width: 30%;
+    width: 20%;
     text-align: center;
-    
+    background-color: #fafafa;
+    border-radius: 20px;
+    margin: 1vw;
+    padding: 1vw;
 }
-main section.products ul li span {
+main section.products ul li.esquerda {
+    margin: 1vw 1vw 1vw 9vw;
+}
+main section.products ul li.direita {
+    margin: 1vw 9vw 1vw 1vw
+}
+main section.products ul li i {
     font-size: 2.3rem;
     color: #888888;
+    background-color: #EFEFEF;
+    border-radius: 100px;
+    padding: 1vw;
+}
+main section.products ul li h3 {
+    margin: 1vw 0 1vw;
+}
+main section.products ul li p {
+    color: #888888;
+    font-size: small;
+    margin: 0 4vw;
 
+}
+main section.build h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 5vw 0 1vw 0;
+}
+main section.build p.um {
+    text-align: center;
+    color: #888888;
+    margin: 0 33vw;
+}
+main section.build div.pai {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0 6vw 5vw;
+}
+
+main section.build div.pai div.filho {
+    margin: 5vw 0 0 5vw ;
+}
+main section.build div.pai div.filho p{
+    margin: 1vw 0;
+    color: #888888;
+}
+
+footer {
+    background-color: #CBE4DE;
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+}
+footer p span {
+    color: #000000;
+    font-size: 1.2rem;
+}
+footer p {
+    color: #888888;
+    font-size: small;
+}
+footer ul {
+    display: flex;
+    margin: 0 3vw 0 3vw;
+
+}
+footer ul li a {
+    margin: 0 1vw;
+    color: #888888;
+    font-size: small;
 }
